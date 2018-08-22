@@ -1,0 +1,144 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+div {
+  border: 1px dotted black;
+}
+body {
+  margin:0;
+}
+p{
+  font-size: 1rem;
+}
+.container{
+  width: 960px;
+}
+
+/* banner */
+.banner {
+  height: 30rem;
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.banner .container {
+  width: 960px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 1rem;
+  color: white;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo img {
+  height: 1.5rem;
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+}
+.logo div {
+  margin-left: 1rem;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+}
+.navigation div{
+  margin-right: 2rem;
+}
+.caption {
+  margin-top: 12rem;
+  margin-left: 35%;
+  padding: 0.75rem 5rem;
+  background-color: white;
+}
+/* frame */
+.frame {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.frame .container {
+  display: flex;
+  justify-content: center;
+
+}
+.minicontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+.frames {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height:8rem;
+}
+.frames {
+  width: 3rem;
+  padding:0;
+  margin: 0;
+}
+.icon {
+  border: 1px solid red;
+
+  width: 100%;
+}
+.text {
+  text-align: center;
+}
+.icon img {
+  width: 100%;
+}
+/* about styling */
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about .container {
+  display: flex;
+  flex-direction: row;
+}
+.page {
+  width: 35%;
+  margin-right: 5%;
+}
+.title {
+  width: 10rem;
+  color: white;
+  background-color: cadetblue;
+}
+/* footer styling */
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 5rem;
+  padding: 4rem 0;
+  background-color: azure;
+}
+.footer .container .logo {
+  margin-left: 4rem;
+}
+.footer .container .lastinfo {
+  margin-left: 1rem;
+
+}
